@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "babel-preset-react-app"
+  ],
+  "code": true,
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "~": "./src"
+      }
+    }]
+  ]
+}
